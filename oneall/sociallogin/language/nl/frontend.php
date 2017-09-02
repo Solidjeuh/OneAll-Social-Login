@@ -2,7 +2,7 @@
 /**
  * @package   	OneAll Social Login
  * @copyright 	Copyright 2011-2017 http://www.oneall.com
- * Nederlandse vertaling @ Solidjeuh <http://www.froddelpower.be>
+ * Nederlandse vertaling @ Solidjeuh <https://www.froddelpower.be>
  * @license   	GNU/GPL 2 or later
  *
  * This program is free software; you can redistribute it and/or
@@ -23,16 +23,14 @@
  * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  *
  */
-if (! defined ('IN_PHPBB'))
+if (!defined ('IN_PHPBB'))
 {
 	exit ();
 }
-
-if (empty ($lang) || ! is_array ($lang))
+if (empty ($lang) || !is_array ($lang))
 {
-	$lang = array ();
+	$lang = array();
 }
-
 // Social Login Frontend.
 $lang = array_merge ($lang, array (
 	'OA_SOCIAL_LOGIN_LINK_UCP' => 'Link sociale netwerk accounts',
@@ -43,8 +41,9 @@ $lang = array_merge ($lang, array (
 	'OA_SOCIAL_LOGIN_LINK_ACTION' => 'Klik op het icoon van het sociale netwerk om te verbinden/verbreken.',
 	'OA_SOCIAL_LOGIN_ENABLE_SOCIAL_NETWORK' => 'Je moet minstens 1 sociaal netwerk activeren',
 	'OA_SOCIAL_LOGIN_ENTER_CREDENTIALS' => 'Je moet een API sleutel aanmaken',
-	'OA_SOCIAL_LOGIN_SOCIAL_LINK' => 'Sociaal Link Service',
 	'OA_SOCIAL_LOGIN_ACCOUNT_ALREADY_LINKED' => 'Dit sociaal netwerk is reeds gekoppeld aan een andere forum gebruiker.',
+    'OA_SOCIAL_LOGIN_ACCOUNT_LINKED' => 'Het sociale netwerk account werd gekoppeld aan uw account.',
+    'OA_SOCIAL_LOGIN_ACCOUNT_UNLINKED' => 'Dit sociale netwerk account werd losgekoppeld van uw account.',
 	'OA_SOCIAL_LOGIN_ACCOUNT_INACTIVE_OTHER' => 'Het account is aangemaakt, maar de forum instellingen vereisen nog een account activatie.<br />Een activeringscode is verzonden naar uw e-mailadres',
 	'OA_SOCIAL_LOGIN_ACCOUNT_INACTIVE_ADMIN' => 'Het account is aangemaakt, maar de forum instellingen vereisen een account activatie door een beheerder.<br />Een e-mail is verzonden naar de beheerders en u wordt op de hoogte gebracht via e-mail zodra uw account is geactiveerd.',
 ));

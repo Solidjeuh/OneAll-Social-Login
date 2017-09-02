@@ -2,8 +2,8 @@
 /**
  * @package   	OneAll Social Login
  * @copyright 	Copyright 2011-2017 http://www.oneall.com
- * Nederlandse vertaling @ Solidjeuh <http://www.froddelpower.be>
- * @license   	GNU/GPL 2 or later
+ * Nederlandse vertaling @ Solidjeuh <https://www.froddelpower.be> 
+ * @license   	GPL-2.0
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -23,21 +23,35 @@
  * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  *
  */
-if (! defined ('IN_PHPBB'))
+/**
+ * Dutch translations by Solidejuh
+ * https://www.froddelpower.be
+ */
+if (!defined ('IN_PHPBB'))
 {
 	exit ();
 }
-
-if (empty ($lang) || ! is_array ($lang))
+if (empty ($lang) || !is_array ($lang))
 {
-	$lang = array ();
+	$lang = array();
 }
-
 // Social Login Backend.
-$lang = array_merge ($lang, array (
+$lang = array_merge ($lang, array(
+	// The G_ prefix is not a typo but required
+	'G_OA_SOCIAL_LOGIN_REGISTER' => 'Geregistreerde OneAll gebruikers',
+	'OA_SOCIAL_LOGIN_CREATE_ACCOUNT_FIRST' => 'Om Sociale Login te kunnen gebruiken, moet u eerst een gratis account aanmaken bij <a href="https://app.oneall.com/signup/" class="external">http://www.oneall.com</a>.',
+	'OA_SOCIAL_LOGIN_DEFAULT' => 'Standaard',
+	'OA_SOCIAL_LOGIN_DISCOVER_PLUGINS' => '<a href="http://docs.oneall.com/plugins/" class="external">Ontdek</a> onze turnkey plugins voor Drupal, Joomla, WordPress ...',
+	'OA_SOCIAL_LOGIN_FOLLOW_US_TWITTER' => '<a href="http://www.twitter.com/oneall" class="external">Volg ons</a> op Twitter om op de hoogte blijven van updates.',
+	'OA_SOCIAL_LOGIN_GET_HELP' => '<a href="https://support.oneall.com/forums/" class="external">Contacteer ons</a> Als u feedback heeft of hulp nodig hebt!',
+	'OA_SOCIAL_LOGIN_READ_DOCS' => '<a href="http://docs.oneall.com/plugins/guide/social-login-phpbb/3.1/" class="external">Lees</a> de online documentatie voor meer informatie over deze plugin.',
+	'OA_SOCIAL_LOGIN_INTRO' => 'Sta uw bezoekers toe om in te loggen en zich te registreren met sociale netwerken zoals Twitter, Facebook, LinkedIn, VKontakte, Google, Yahoo en vele andere. Sociale Login <strong>verhoogt uw gebruikers registratie percentage</strong> door het registratieproces te vereenvoudigen en zorgt voor permissie gebaseerde <strong>informatie van de sociale netwerk profielen</strong>. Sociale Login integreert met uw bestaand registratiesysteem, zodat u en uw gebruikers niet van nul af moeten beginnen.',
+	'OA_SOCIAL_LOGIN_VIEW_CREDENTIALS' => '<a href="https://app.oneall.com/applications/" class="button1 external">Maak en/of bekijk mijn API-referenties</a>',
+	'OA_SOCIAL_LOGIN_WIDGET_TITLE' => 'Login met een sociaal netwerk',
 	'OA_SOCIAL_LOGIN_ACP' => 'OneAll Sociale Login',
 	'OA_SOCIAL_LOGIN_ACP_SETTINGS' => 'Instellingen',
 	'OA_SOCIAL_LOGIN_API_AUTODETECT' => 'Automatische detectie API-verbinding',
+	'OA_SOCIAL_LOGIN_API_VERIFY' => 'Verifieer API Instellingen',	
 	'OA_SOCIAL_LOGIN_API_CONNECTION' => 'API Verbinding',
 	'OA_SOCIAL_LOGIN_API_CONNECTION_HANDLER' => 'API Verbinding Regelaar',
 	'OA_SOCIAL_LOGIN_API_CONNECTION_HANDLER_DESC' => 'OneAll Is een verbindings beheerder bij de API van Sociale Media',
@@ -57,13 +71,9 @@ $lang = array_merge ($lang, array (
 	'OA_SOCIAL_LOGIN_API_PRIVATE_KEY' => 'API Private Sleutel',
 	'OA_SOCIAL_LOGIN_API_PUBLIC_KEY' => 'API Publieke Sleutel',
 	'OA_SOCIAL_LOGIN_API_SUBDOMAIN' => 'API Subdomein',
-	'OA_SOCIAL_LOGIN_API_VERIFY' => 'Verifieer API Instellingen',
-	'OA_SOCIAL_LOGIN_CREATE_ACCOUNT_FIRST' => 'Om Sociale Login te kunnen gebruiken, moet u eerst een gratis account aanmaken op <a href="https://app.oneall.com/signup/" class="external">http://www.oneall.com</a> en een Site instellen.',
 	'OA_SOCIAL_LOGIN_CURL' => 'PHP CURL',
 	'OA_SOCIAL_LOGIN_CURL_DESC' => 'Het gebruik van CURL wordt aanbevolen, maar het kan uitgeschakeld zijn op sommige servers.',
 	'OA_SOCIAL_LOGIN_CURL_DOCS' => '<a href="http://www.php.net/manual/en/book.curl.php" class="external">CURL Handleiding</a>',
-	'OA_SOCIAL_LOGIN_DEFAULT' => 'Standaard',
-	'OA_SOCIAL_LOGIN_DISCOVER_PLUGINS' => '<a href="http://docs.oneall.com/plugins/" class="external">Ontdek</a> Onze turnkey plugins voor Drupal, Joomla, WordPress.',
 	'OA_SOCIAL_LOGIN_DISPLAY_LOC' => 'Waar wil je Sociale Inloggen weergeven?',
 	'OA_SOCIAL_LOGIN_DO_AVATARS' => 'Activeer uploaden van avatars van sociale netwerken?',
 	'OA_SOCIAL_LOGIN_DO_AVATARS_DESC' => 'Sta toe om de avatar van de gebruiker op te halen van zijn/haar sociale netwerk en sla het op in je phpBB avatar map.',
@@ -90,19 +100,16 @@ $lang = array_merge ($lang, array (
 	'OA_SOCIAL_LOGIN_ENABLE_NETWORKS' => 'Kies de sociale netwerken om op je forum in te schakelen',
 	'OA_SOCIAL_LOGIN_ENABLE_SOCIAL_NETWORK' => 'U moet minimaal 1 sociaal netwerk inschakelen',
 	'OA_SOCIAL_LOGIN_ENTER_CREDENTIALS' => 'Je moet je API-referenties instellen',
-	'OA_SOCIAL_LOGIN_FOLLOW_US_TWITTER' => '<a href="http://www.twitter.com/oneall" class="external">Volg ons</a> op Twitter om op de hoogte te blijven van updates.',
 	'OA_SOCIAL_LOGIN_FSOCKOPEN' => 'PHP FSOCKOPEN',
 	'OA_SOCIAL_LOGIN_FSOCKOPEN_DESC' => 'Gebruik alleen FSOCKOPEN als u problemen ondervindt met CURL.',
 	'OA_SOCIAL_LOGIN_FSOCKOPEN_DOCS' => '<a href="http://www.php.net/manual/en/function.fsockopen.php" class="external">FSOCKOPEN Handleiding</a>',
-	'OA_SOCIAL_LOGIN_GET_HELP' => '<a href="http://www.oneall.com/company/contact-us/" class="external">Contacteer ons</a> als u feedback hebt of hulp nodig hebt!',
 	'OA_SOCIAL_LOGIN_INDEX_PAGE' => 'Forum Thuispagina',
 	'OA_SOCIAL_LOGIN_INDEX_PAGE_CAPTION' => 'Hoofd pagina titel',
 	'OA_SOCIAL_LOGIN_INDEX_PAGE_CAPTION_DESC' => 'Deze titel wordt weergegeven boven de Sociale Login iconen op de hoofd pagina.',
-	'OA_SOCIAL_LOGIN_INDEX_PAGE_ENABLE' => 'Display on the main page ?',
+	'OA_SOCIAL_LOGIN_INDEX_PAGE_ENABLE' => 'Weergeven op de hoofd pagina?',
 	'OA_SOCIAL_LOGIN_INDEX_PAGE_ENABLE_DESC' => 'Indien ingeschakeld, wordt Sociale Login op de hoofd pagina weergegeven.',
 	'OA_SOCIAL_LOGIN_INDEX_PAGE_NO' => 'Nee',
 	'OA_SOCIAL_LOGIN_INDEX_PAGE_YES' => 'Ja, toon op de hoofd pagina',
-	'OA_SOCIAL_LOGIN_INTRO' => 'Sta uw bezoekers toe om in te loggen en zich te registreren met sociale netwerken zoals Twitter, Facebook, LinkedIn, Hyves, VKontakte, Google en Yahoo. Sociale aanmelding <strong>verhoogt uw gebruikers registratie percentage</strong> door het registratieproces te vereenvoudigen en zorgt voor permissie gebasseerde sociale <strong>gegevens die worden verkregen op basis van de sociale netwerkprofielen</strong>. Sociale Login integreert met uw bestaand registratie systeem, zodat u en uw gebruikers niet van nul af aan moeten beginnen.',
 	'OA_SOCIAL_LOGIN_LOGIN_PAGE' => 'Forum Login Pagina',
 	'OA_SOCIAL_LOGIN_LOGIN_PAGE_CAPTION' => 'Login pagina titel',
 	'OA_SOCIAL_LOGIN_LOGIN_PAGE_CAPTION_DESC' => 'Deze titel wordt weergegeven boven de Social Login iconen op de login pagina.',
@@ -130,7 +137,6 @@ $lang = array_merge ($lang, array (
 	'OA_SOCIAL_LOGIN_PORT_80_DESC' => 'Het gebruik van poort 80 is een beetje sneller, heeft geen OpenSSL nodig, maar is minder veilig.',
 	'OA_SOCIAL_LOGIN_PROFILE_DESC' => 'Link uw account aan een sociaal netwerk',
 	'OA_SOCIAL_LOGIN_PROFILE_TITLE' => 'Sociale Login',
-	'OA_SOCIAL_LOGIN_READ_DOCS' => '<a href="http://docs.oneall.com/plugins/" class="external">Lees</a> de online documentatie voor meer informatie over deze plugin.',
 	'OA_SOCIAL_LOGIN_REGISTRATION_PAGE' => 'Forum Registratie Pagina',
 	'OA_SOCIAL_LOGIN_REGISTRATION_PAGE_CAPTION' => 'Registratie pagina titel',
 	'OA_SOCIAL_LOGIN_REGISTRATION_PAGE_CAPTION_DESC' => 'Deze titel wordt boven de Social Login-iconen op de registratie pagina weergegeven.',
@@ -139,17 +145,12 @@ $lang = array_merge ($lang, array (
 	'OA_SOCIAL_LOGIN_REGISTRATION_PAGE_NO' => 'Nee',
 	'OA_SOCIAL_LOGIN_REGISTRATION_PAGE_YES' => 'Ja, toon op de registratie pagina',
 	'OA_SOCIAL_LOGIN_SETTINGS' => 'Instellingen',
-	'OA_SOCIAL_LOGIN_SETTNGS_UPDATED' => 'Instellingen succesvol bijgewerkt.',
+	'OA_SOCIAL_LOGIN_SETTINGS_UPDATED' => 'Instellingen succesvol bijgewerkt.',
 	'OA_SOCIAL_LOGIN_SETUP_FREE_ACCOUNT' => '<a href="https://app.oneall.com/signup/" class="button1 external">Stel mijn gratis account in</a>',
-	'OA_SOCIAL_LOGIN_SOCIAL_LINK' => 'Sociale Link Service',
 	'OA_SOCIAL_LOGIN_TITLE' => 'OneAll Sociale Login',
 	'OA_SOCIAL_LOGIN_TITLE_HELP' => 'Help, Updates &amp; Documentatie',
 	'OA_SOCIAL_LOGIN_VALIDATION_FORM_DESC' => 'De beheerder vereist dat u uw gebruikersnaam en e-mailadres controleert of voltooit.',
-	'OA_SOCIAL_LOGIN_VALIDATION_FORM_EMAIL_EXPLAIN' => 'Accepteer of verander uw e-mailadres.',
-	'OA_SOCIAL_LOGIN_VALIDATION_FORM_EMAIL_NONE_EXPLAIN' => 'E-mailadres ontbreekt in uw profiel, vul hier in alstublieft.',
-	'OA_SOCIAL_LOGIN_VALIDATION_FORM_HEADER' => 'Valideer je gebruikersnaam en e-mailadres',
-	'OA_SOCIAL_LOGIN_VALIDATION_SESSION_ERROR' => 'Ontbrekende sessie informatie.',
-	'OA_SOCIAL_LOGIN_VIEW_CREDENTIALS' => '<a href="https://app.oneall.com/applications/" class="button1 external">Cre&euml;er en bekijk mijn API-referenties</a>',
-	'OA_SOCIAL_LOGIN_WIDGET_TITLE' => 'Login met een sociaal netwerk',
-	'G_OA_SOCIAL_LOGIN_REGISTER' => 'Geregistreerde OneAll gebruikers',
+	'OA_SOCIAL_LOGIN_VALIDATION_FORM_HEADER' => 'Valideer uw gebruikersnaam en e-mailadres',
+	'OA_SOCIAL_LOGIN_VALIDATION_SESSION_ERROR' => 'Ontbrekende sessie informatie.'
+
 ));
