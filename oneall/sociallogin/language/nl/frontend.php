@@ -3,7 +3,7 @@
  * @package   	OneAll Social Login
  * @copyright 	Copyright 2011-2017 http://www.oneall.com
  * Nederlandse vertaling @ Solidjeuh <https://www.froddelpower.be>
- * @license   	GNU/GPL 2 or later
+ * @license   	GPL-2.0
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -23,14 +23,21 @@
  * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  *
  */
+
+/**
+ * English translations by OneAll
+ * http://www.oneall.com
+ */
 if (!defined ('IN_PHPBB'))
 {
 	exit ();
 }
+
 if (empty ($lang) || !is_array ($lang))
 {
 	$lang = array();
 }
+
 // Social Login Frontend.
 $lang = array_merge ($lang, array (
 	'OA_SOCIAL_LOGIN_LINK_UCP' => 'Link sociale netwerk accounts',

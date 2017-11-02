@@ -1,9 +1,9 @@
 <?php
 /**
- * @package   	OneAll Social Login
- * @copyright 	Copyright 2011-2017 http://www.oneall.com
+ * @package       OneAll Social Login
+ * @copyright     Copyright 2011-2017 http://www.oneall.com
  * Nederlandse vertaling @ Solidjeuh <https://www.froddelpower.be>
- * @license   	GPL-2.0
+ * @license       GPL-2.0
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -23,20 +23,28 @@
  * http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  *
  */
+
+/**
+ * English translations by OneAll
+ * http://www.oneall.com
+ */
 if (!defined ('IN_PHPBB'))
 {
 	exit ();
 }
+
 if (empty ($lang) || !is_array ($lang))
 {
 	$lang = array();
 }
+
 // Social Login Providers.
 $lang = array_merge ($lang, array(
 	'OA_SOCIAL_LOGIN_P_AMAZON' => 'Amazon',
 	'OA_SOCIAL_LOGIN_P_BATTLENET' => 'Battle.net',
 	'OA_SOCIAL_LOGIN_P_BLOGGER' => 'Blogger',
 	'OA_SOCIAL_LOGIN_P_STORAGE' => 'Cloud Storage',
+	'OA_SOCIAL_LOGIN_P_DISCORD' => 'Discord',
 	'OA_SOCIAL_LOGIN_P_DISQUS' => 'Disqus',
 	'OA_SOCIAL_LOGIN_P_DRAUGIEM' => 'Draugiem',
 	'OA_SOCIAL_LOGIN_P_DRIBBBLE' => 'Dribbble',
@@ -60,10 +68,12 @@ $lang = array_merge ($lang, array(
 	'OA_SOCIAL_LOGIN_P_SOUNDCLOUD' => 'SoundCloud',
 	'OA_SOCIAL_LOGIN_P_STACKEXCHANGE' => 'StackExchange',
 	'OA_SOCIAL_LOGIN_P_STEAM' => 'Steam',
+	'OA_SOCIAL_LOGIN_P_TUMBLR' => 'Tumblr',	
 	'OA_SOCIAL_LOGIN_P_TWITCHTV' => 'Twitch.tv',
 	'OA_SOCIAL_LOGIN_P_TWITTER' => 'Twitter',
 	'OA_SOCIAL_LOGIN_P_VIMEO' => 'Vimeo',
 	'OA_SOCIAL_LOGIN_P_VKONTAKTE' => 'VKontakte',
+	'OA_SOCIAL_LOGIN_P_WEIBO' => 'Weibo',
 	'OA_SOCIAL_LOGIN_P_WINDOWSLIVE' => 'Windows Live',
 	'OA_SOCIAL_LOGIN_P_WORDPRESSCOM' => 'WordPress.com',
 	'OA_SOCIAL_LOGIN_P_XING' => 'XING',
