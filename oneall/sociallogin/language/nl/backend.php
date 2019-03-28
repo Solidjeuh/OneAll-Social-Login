@@ -55,7 +55,7 @@ $lang = array_merge ($lang, array(
 	'OA_SOCIAL_LOGIN_ACP' => 'OneAll Sociale Login',
 	'OA_SOCIAL_LOGIN_ACP_SETTINGS' => 'Instellingen',
 
-	'OA_SOCIAL_LOGIN_API_AUTODETECT' => 'Automatische detectie API verbinding',
+	'OA_SOCIAL_LOGIN_API_AUTODETECT' => 'Automatische detectie API-verbinding',
 	'OA_SOCIAL_LOGIN_API_VERIFY' => 'Verifieer API Instellingen',
 
 	'OA_SOCIAL_LOGIN_API_CONNECTION' => 'API Verbinding',
@@ -91,7 +91,7 @@ $lang = array_merge ($lang, array(
 	'OA_SOCIAL_LOGIN_DO_AVATARS' => 'Activeer uploaden van avatars van sociale netwerken?',
 	'OA_SOCIAL_LOGIN_DO_AVATARS_DESC' => 'Sta toe om de avatar van de gebruiker op te halen van zijn/haar sociale netwerk en sla het op in je phpBB avatar map.',
 	'OA_SOCIAL_LOGIN_DO_AVATARS_ENABLE_NO' => 'Nee, gebruik geen sociale netwerk avatars',
-	'OA_SOCIAL_LOGIN_DO_AVATARS_ENABLE_YES' => 'Ja, gebruik sociale netwerk avatars',
+	'OA_SOCIAL_LOGIN_DO_AVATARS_ENABLE_YES' => 'Ja, gebruik sociale network avatars',
 
 	'OA_SOCIAL_LOGIN_DO_ENABLE' => 'Sociale Login inschakelen?',
 	'OA_SOCIAL_LOGIN_DO_ENABLE_DESC' => 'Hiermee kunt u de Sociale Login tijdelijk uitschakelen zonder het te verwijderen.',
@@ -112,7 +112,7 @@ $lang = array_merge ($lang, array(
 	'OA_SOCIAL_LOGIN_DO_VALIDATION_ALWAYS' => 'Activeer profiel validatie',
 	'OA_SOCIAL_LOGIN_DO_VALIDATION_ASK' => 'Vraag nieuwe gebruikers om gebruikersnaam en e-mail te valideren?',
 	'OA_SOCIAL_LOGIN_DO_VALIDATION_DEPENDS' => 'Profiel validatie indien nodig',
-	'OA_SOCIAL_LOGIN_DO_VALIDATION_DESC' => 'Indien ingeschakeld, worden nieuwe gebruikers gevraagd hun gebruikersnaam en e-mailadres te voltooien of te controleren.<br>De vereiste validatie gebeurt alleen als de gebruikersnaam reeds in gebruik is, het e-mailadres ontbreekt of het e-mailadres reeds in gebruik is en Sociale Link is uitgeschakeld. ',
+	'OA_SOCIAL_LOGIN_DO_VALIDATION_DESC' => 'Indien ingeschakeld, worden nieuwe gebruikers gevraagd hun gebruikersnaam en e-mailadres te voltooien of te controleren.<br />De vereiste validatie gebeurt alleen als de gebruikersnaam reeds in gebruik is, het e-mailadres ontbreekt of het e-mailadres reeds in gebruik is en Sociale Link is uitgeschakeld. ',
 	'OA_SOCIAL_LOGIN_DO_VALIDATION_NEVER' => 'Schakel profiel validatie uit',
 
 	'OA_SOCIAL_LOGIN_ENABLE_NETWORKS' => 'Kies de sociale netwerken om op je forum in te schakelen',
@@ -143,17 +143,17 @@ $lang = array_merge ($lang, array(
 	'OA_SOCIAL_LOGIN_INLINE_PAGE_CAPTION' => 'Inline login formulier titel',
 	'OA_SOCIAL_LOGIN_INLINE_PAGE_CAPTION_DESC' => 'Deze titel wordt weergegeven boven de Sociale Login iconen embedded inline op de login pagina.',
 	'OA_SOCIAL_LOGIN_INLINE_PAGE_ENABLE' => 'Weergeven als inline formulier op de login pagina?',
-	'OA_SOCIAL_LOGIN_INLINE_PAGE_ENABLE_DESC' => 'Indien ingeschakeld, wordt Sociale Login geïntegreerd als inline formulier op de login pagina. Om de inline-weergave in te schakelen, moet u OneAll selecteren als verificatie methode in de ALGEMENE \ CLIENT COMMUNICATIONS \ AUTHENTICATION instelling.',
+	'OA_SOCIAL_LOGIN_INLINE_PAGE_ENABLE_DESC' => 'Indien ingeschakeld, wordt Sociale Login ge&iuml;ntegreerd als inline formulier op de login pagina. Om de inline-weergave in te schakelen, moet u OneAll selecteren als verificatie methode in de ALGEMENE \ CLIENT COMMUNICATIONS \ AUTHENTICATION instelling.',
 	'OA_SOCIAL_LOGIN_INLINE_PAGE_NO' => 'Nee',
 	'OA_SOCIAL_LOGIN_INLINE_PAGE_YES' => 'Ja, toon inline op de login pagina',
 
-	'OA_SOCIAL_LOGIN_OTHER_PAGE' => 'Alle andere pagina’s',
-	'OA_SOCIAL_LOGIN_OTHER_PAGE_CAPTION' => 'Titel op andere pagina’s',
-	'OA_SOCIAL_LOGIN_OTHER_PAGE_CAPTION_DESC' => 'Deze titel wordt boven de Social Login iconen op de andere pagina’s weergegeven.',
-	'OA_SOCIAL_LOGIN_OTHER_PAGE_ENABLE' => 'Toon op andere pagina’s?',
+	'OA_SOCIAL_LOGIN_OTHER_PAGE' => 'Alle andere pagina&rsquo;s',
+	'OA_SOCIAL_LOGIN_OTHER_PAGE_CAPTION' => 'Titel op andere pagina&rsquo;s',
+	'OA_SOCIAL_LOGIN_OTHER_PAGE_CAPTION_DESC' => 'Deze titel wordt boven de Social Login-iconen op de andere pagina&rsquo;s weergegeven.',
+	'OA_SOCIAL_LOGIN_OTHER_PAGE_ENABLE' => 'Toon op andere pagina&rsquo;s?',
 	'OA_SOCIAL_LOGIN_OTHER_PAGE_ENABLE_DESC' => 'Indien ingeschakeld zal Sociale Login ook worden weergegeven op elke andere pagina van het forum.',
 	'OA_SOCIAL_LOGIN_OTHER_PAGE_NO' => 'Nee',
-	'OA_SOCIAL_LOGIN_OTHER_PAGE_YES' => 'Ja, toon op andere pagina’s',
+	'OA_SOCIAL_LOGIN_OTHER_PAGE_YES' => 'Ja, toon op andere pagina&rsquo;s',
 
 	'OA_SOCIAL_LOGIN_PORT_443' => 'Communicatie via HTTPS op poort 443',
 	'OA_SOCIAL_LOGIN_PORT_443_DESC' => 'Poort 443 gebruiken wordt aanbevolen, maar u moet waarschijnlijk OpenSSL op uw server installeren.',
@@ -165,7 +165,7 @@ $lang = array_merge ($lang, array(
 
 	'OA_SOCIAL_LOGIN_REGISTRATION_PAGE' => 'Forum Registratie Pagina',
 	'OA_SOCIAL_LOGIN_REGISTRATION_PAGE_CAPTION' => 'Registratie pagina titel',
-	'OA_SOCIAL_LOGIN_REGISTRATION_PAGE_CAPTION_DESC' => 'Deze titel wordt boven de Social Login iconen op de registratie pagina weergegeven.',
+	'OA_SOCIAL_LOGIN_REGISTRATION_PAGE_CAPTION_DESC' => 'Deze titel wordt boven de Social Login-iconen op de registratie pagina weergegeven.',
 	'OA_SOCIAL_LOGIN_REGISTRATION_PAGE_ENABLE' => 'Toon op de registratie pagina?',
 	'OA_SOCIAL_LOGIN_REGISTRATION_PAGE_ENABLE_DESC' => 'Indien ingeschakeld wordt Sociale Login op de registratie pagina weergegeven.',
 	'OA_SOCIAL_LOGIN_REGISTRATION_PAGE_NO' => 'Nee',
